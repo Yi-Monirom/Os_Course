@@ -1,0 +1,8 @@
+   21  wc -l original_log/access.log > analysis/task1_basic_stats.txt
+   22* head -5 
+   23  head -5 original_log/access.log > analysis/task1_basic_stats.txt
+   24  tail -5 original_log/access.log > analysis/task1_basic_stats.txt
+   25  cat analysis/task1_basic_stats.txt 
+   26  wc -l original_log/access.log > analysis/task1_basic_stats.txt
+   27  head -5 original_log/access.log >> analysis/task1_basic_stats.txt
+   28  tail -5 original_log/access.log >> analysis/task1_basic_stats.txt

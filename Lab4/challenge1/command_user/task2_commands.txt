@@ -1,0 +1,3 @@
+   40  grep -E " 404|403" original_log/access.log > analysis/task2_failed_logins.txt
+   41  cat analysis/task2_failed_logins.txt 
+   42  awk '{print $1}' analysis/task2_failed_logins.txt | sort | uniq -c | sort -nr >> analysis/task2_failed_logins.txt 

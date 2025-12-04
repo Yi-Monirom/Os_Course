@@ -1,0 +1,14 @@
+198.51.100.22 - - [15/Oct/2023:08:14:12 +0000] "GET /wp-admin HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+198.51.100.22 - - [15/Oct/2023:08:17:05 +0000] "GET /admin HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+45.33.2.79 - - [15/Oct/2023:08:19:12 +0000] "GET /?cmd=whoami HTTP/1.1" 404 321 "Mozilla/5.0 (ExploitScanner)"
+198.51.100.22 - - [15/Oct/2023:08:20:05 +0000] "GET /.git/config HTTP/1.1" 404 291 "Mozilla/5.0 (X11; Linux x86_64)"
+45.33.2.79 - - [15/Oct/2023:08:22:12 +0000] "GET /phpmyadmin HTTP/1.1" 404 321 "Mozilla/5.0 (ExploitScanner)"
+198.51.100.22 - - [15/Oct/2023:08:23:05 +0000] "GET /wp-content/uploads/ HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+198.51.100.22 - - [15/Oct/2023:08:26:05 +0000] "GET /backup.zip HTTP/1.1" 404 291 "Mozilla/5.0 (X11; Linux x86_64)"
+45.33.2.79 - - [15/Oct/2023:08:28:12 +0000] "GET /.htaccess HTTP/1.1" 403 321 "Mozilla/5.0 (ExploitScanner)"
+198.51.100.22 - - [15/Oct/2023:08:29:05 +0000] "GET /config.php HTTP/1.1" 404 291 "Mozilla/5.0 (X11; Linux x86_64)"
+45.33.2.79 - - [15/Oct/2023:08:31:12 +0000] "GET /wp-includes/ HTTP/1.1" 403 321 "Mozilla/5.0 (ExploitScanner)"
+198.51.100.22 - - [15/Oct/2023:08:32:05 +0000] "GET /database.sql HTTP/1.1" 404 291 "Mozilla/5.0 (X11; Linux x86_64)"
+198.51.100.22 - - [15/Oct/2023:08:35:05 +0000] "GET /wp-config.php HTTP/1.1" 403 291 "Mozilla/5.0 (X11; Linux x86_64)"
+      8 198.51.100.22
+      4 45.33.2.79

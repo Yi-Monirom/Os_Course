@@ -1,0 +1,8 @@
+   50  awk '{print 1$}' original_log/access.log | sort | uniq -c | sort -nr | head -5 > analysis/task4_top_ips.txt
+   51  awk '{print $1}' original_log/access.log | sort | uniq -c | sort -nr | head -5 > analysis/task4_top_ips.txt
+   52  awk -F'[:[]' '{print $2}' original_log/access.log  | sort | uniq -c | sort -nr >> analysis/task4_top_ips.txt 
+   53  awk '{print $7}' original_log/access.log | sort | uniq -c | sort -nr | head -10 > analysis/task4_top_ips.txt
+   54  cat analysis/task4_top_ips.txt 
+   55  awk '{print $1}' original_log/access.log | sort | uniq -c | sort -nr | head -5 > analysis/task4_top_ips.txt
+   56  awk -F'[:[]' '{print $2}' original_log/access.log  | sort | uniq -c | sort -nr >> analysis/task4_top_ips.txt 
+   57  awk '{print $1}' original_log/access.log | sort | uniq -c | sort -nr | head -5 >> analysis/task4_top_ips.txt
