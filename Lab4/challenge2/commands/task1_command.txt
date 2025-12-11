@@ -1,0 +1,3 @@
+  178  grep "department:IT" employees.txt > ../results/task1_IT_staff.txt
+  179  cd ../results/
+  180  cat task1_IT_staff.txt 

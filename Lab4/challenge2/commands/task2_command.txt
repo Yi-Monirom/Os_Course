@@ -1,0 +1,2 @@
+  185  cut -d "," -f 4 employees.txt | cut -d ":" -f 2 > ../results/task2_all_email.txt 
+  186  cat ../results/task2_all_email.txt 

@@ -1,0 +1,2 @@
+  190  grep "department:HR" employees.txt | cut -d "," -f 2 >../results/task4_HR_names.txt
+  191  cat ../results/task4_HR_names.txt 

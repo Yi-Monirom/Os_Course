@@ -1,0 +1,2 @@
+  188  cut -d "," -f 4 employees.txt | cut -d ":" -f 2 |grep "^j" > ../results/task3_j_emails.txt 
+  189  cat ../results/task3_j_emails.txt

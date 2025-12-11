@@ -1,0 +1,234 @@
+    1  clear
+    2  ls
+    3  mkdir lab1
+    4  ls
+    5  ls a 
+    6  ls a+
+    7  ls a
+    8  h
+    9  help
+   10  man a
+   11  man ls
+   12  whoami
+   13  man sudo_root
+   14  root
+   15  sudo root
+   16  1234
+   17  sudo root
+   18  sudo su
+   19  pwd
+   20  dir
+   21  ls
+   22  cd lab1
+   23  ls
+   24  touch 
+   25  touch lab1
+   26  ls
+   27  sudo apt-get purge lab1
+   28  ls
+   29  sudo rm -rf lab1
+   30  ls
+   31  ping google.com
+   32  clear
+   33  ssh gic-yi-monirom@172.23.144.52
+   34  ssh gic-yimonirom@172.23.144.52
+   35  ssh gic-yi-monirom@172.23.144.52
+   36  c
+   37  cd
+   38  ssh gic-yi-monirom@172.23.144.52
+   39  cd
+   40  ssh gic-yi-monirom@172.23.144.52
+   41  ping 172.23.144.52
+   42  ssh gic-yi-monirom@172.23.144.52
+   43  ping 172.23.144.52
+   44  ssh gic-yi-monirom@172.23.144.52
+   45  clear
+   46  ssh gic-yi-monirom@172.23.144.52
+   47  ping 172.23.144.52
+   48  ssh gic-yi-monirom@192.168.22.122
+   49  cd home 
+   50  ls
+   51  cd Lab2/ex1
+   52  sodu su
+   53  sudo su
+   54  tree
+   55  sudo snap install tree
+   56  tree
+   57  ls
+   58  mkdir Lab2
+   59  cd Lab2
+   60  mkdir ex1
+   61  mkdir ex2
+   62  cd .
+   63  cd ex2
+   64  touch ex2.command_history.txt
+   65  cd..
+   66  cd ..
+   67  ex1
+   68  cd ex1
+   69  mkdir etc
+   70  touch ex1_command_history.txt
+   71  mkdir home
+   72  touch resault1.txt
+   73  ls
+   74  cd home
+   75  mkdir lost+found
+   76  mkdir user
+   77  cd user
+   78  mkdir Documents
+   79  ls
+   80  cd ../..
+   81  ls
+   82  cd etc
+   83  ls
+   84  mkdir network
+   85  mkdir systemd
+   86  mkdir udev
+   87  cd udev
+   88  mkdir rules.d
+   89  touch user.conf
+   90  cd
+   91  cd Lab2/ex1/etc/udev
+   92  cd ..
+   93  cd network
+   94  ls
+   95  touch interfaces
+   96  ls
+   97  cd ..
+   98  cd systemd
+   99  touch resolved.conf
+  100  mkdir system
+  101  touch system.conf
+  102  mkdir user
+  103  touch user.conf
+  104  cd
+  105  cd Lab2ex2
+  106  cd Lab2/ex2
+  107  ls
+  108  rm -rf ex2.command_history.txt
+  109  ls
+  110  touch ex2_command_history.txt
+  111  ls
+  112  cd ..
+  113  clear
+  114  TREE
+  115  tree
+  116  ls
+  117  cd Lab2
+  118  tree
+  119  cls
+  120  clear
+  121  ssh gic-yi-monirom@192.168.21.87
+  122  cd
+  123  ssh gic-yi-monirom@192.168.21.87
+  124  cd Lab3
+  125  ssh gic-yi-monirom@192.168.21.87
+  126  ls
+  127  mkdir Lab3
+  128  cd Lab3 
+  129  mkdir CopyingFolder touch copied.txt mkdir Documents cp copied.txt ~/Documents
+  130  ls
+  131  cd
+  132  rm -rf Lab3
+  133  ls
+  134  cd Documents/
+  135  ls
+  136  cd
+  137  mkdir Lab3
+  138  cd Lab3 
+  139  mkdir CopyingFolder
+  140  touch copied.txt
+  141  mkdir Documents Desktop
+  142  cp copied.txt ./Documents
+  143  ls
+  144  cd Documents
+  145  ls
+  146  cd 
+  147  cd Lab3
+  148  ls
+  149  cd
+  150  rm -rf Lab3
+  151  ls
+  152  clear
+  153  mkdir Lab3
+  154  cd Lab3
+  155  mkdir CopyingFolder
+  156  cd CopyingFolder/
+  157  touch copied.txt
+  158  cd ..
+  159  mkdir Documents
+  160  ls
+  161  cd CopyingFolder/
+  162  cp copied.txt ~/Documents/
+  163  cd ..
+  164  tree
+  165  cp copied.txt ~/Lab3/Documents/
+  166  cd CopyingFolder/
+  167  cp copied.txt ~/Lab3/Documents/
+  168  cd ../Documents/
+  169  ls
+  170  cd 
+  171  cd Lab3
+  172  tree
+  173  mkdir Desktop MoveFolder Willdcard_lab backup logs link_lab
+  174  ls
+  175  cd Documents/
+  176  one.txt two.txt three.txt four.txt five.txt
+  177  touch one.txt two.txt three.txt four.txt five.txt
+  178  ls
+  179  cp *.txt ~/lab3/CopyingFolder/
+  180  cp *.txt ../CopyingFolder/
+  181  cd ..
+  182  tree
+  183  cp -r CopyingFolder/ Desktop/
+  184  tree
+  185  cd Documents/
+  186  touch one_document.txt two_document.txt three_document.txt four_document.txt five_document.txt
+  187  ls
+  188  ls l
+  189  echo 1 > one_document.txt
+  190  echo 2 > two_document.txt
+  191  echo 3 > three_document.txt
+  192  echo 4 > four_document.txt
+  193  echo 5 > five_document.txt
+  194  ls
+  195  cat one_document.txt 
+  196  mv one_document.txt document_un.txt
+  197  mv two_document.txt document_deux.txt
+  198  mv three_document.txt document_trois.txt
+  199  mv four_document.txt document_quatre.txt
+  200  mv five_document.txt document_cinq.txt
+  201  ls
+  202  mkdir MoveFoldercreate
+  203  mv document_* MoveFoldercreate/
+  204  cd MoveFoldercreate/
+  205  ls
+  206  cd ../../Desktop/
+  207  mkdir FrenchFolder
+  208  cd ../Documents/MoveFoldercreate/
+  209  mv document_* ../../Desktop/FrenchFolder/
+  210  ls
+  211  cd ../../Desktop/
+  212  ls
+  213  cd FrenchFolder/
+  214  ls
+  215  cd 
+  216  tree lab3
+  217  tree Lab3
+  218  History >Lab3
+  219  tree Lab3 > Lab3/tree_structure_before_remove.txt
+  220  ls
+  221  Lab3
+  222  cd Lab3
+  223  ls
+  224  cat tree_structure_before_remove.txt 
+  225  History > tree_structure_before_remove.txt 
+  226  History > ~/lab3/wildcardex1_command_history.txt 
+  227  cd 
+  228  History > ~/lab3/wildcardex1_command_history.txt 
+  229  History > lab3/wildcardex1_command_history.txt 
+  230  cd lab3
+  231  cd Lab3
+  232  ls
+  233  Hi
+  234  history >wildcardex1_command_history.txt
